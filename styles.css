@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  color: #ffa967;
   padding: 0rem 1rem;
 }
 .navbar {
@@ -167,20 +166,204 @@ section {
 .outline-primary {
   color: rgb(177, 143, 114);
   border: 2px solid rgb(177, 143, 114);
+  background-color: white;
   cursor: pointer;
 }
 .outline-secondary {
   color: black;
   border: 2px solid black;
+  background-color: white;
   cursor: pointer;
 }
 .outline-success {
   color: #0f5132;
   border: 2px solid #0f5132;
+  background-color: white;
   cursor: pointer;
 }
 .outline-danger {
   color: #842029;
   border: 2px solid #842029;
+  background-color: white;
   cursor: pointer;
+}
+.simple-card {
+  border: 1px solid black;
+  width: 20%;
+  padding: 0.8rem 2rem;
+  margin: 1rem;
+}
+.vertical-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal-cards {
+  display: flex;
+}
+.card-img {
+  height: auto;
+  padding: 0.5rem;
+}
+.horizontal-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ffcba4;
+  padding: 1rem;
+  margin: 1rem;
+}
+.e-commerce-card {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(255, 239, 226);
+  color: black;
+  width: 28%;
+}
+.e-commerce-img {
+  border: 1px solid rgb(32, 32, 32);
+  width: 17rem;
+  height: 12rem;
+  border-radius: 0.25rem;
+}
+.thumbnail {
+  position: relative;
+}
+.wishlist {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  border-radius: 0.25rem;
+}
+.new {
+  color: black;
+  background-color: rgb(253, 185, 253);
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+.modals {
+  border: 2px solid #ffcba4;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  margin: 1rem;
+  width: 50%;
+  position: relative;
+}
+.form-control {
+  color: black;
+  border: 2px solid black;
+  padding: 1rem;
+  font-size: large;
+  width: 90%;
+}
+.lists {
+  display: flex;
+}
+.unordered {
+  background-color: #fcd102;
+  color: black;
+}
+.ordered {
+  background-color: #ffcba4;
+  color: black;
+}
+.styled {
+  background-color: #01093e;
+  color: lightblue;
+}
+.list {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 0.7rem;
+}
+.styled-lists > ul {
+  list-style-type: none;
+}
+.avatars {
+  display: flex;
+}
+.avatar {
+  position: relative;
+  padding-left: 4rem;
+}
+.oncall-icon {
+  background-color: #842029;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
+  position: absolute;
+  top: 0rem;
+  right: 0.625rem;
+}
+.online-icon {
+  background-color: green;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
+  position: absolute;
+  top: 0rem;
+  right: 0.625rem;
+}
+.images {
+  display: flex;
+  margin: 1rem;
+}
+.large-img {
+  width: 18.75rem;
+  height: 18.75rem;
+  padding: 2rem;
+}
+.medium-img {
+  width: 12.5rem;
+  height: 12.5rem;
+  padding: 2rem;
+}
+.small-img {
+  width: 6.25rem;
+  height: 6.25rem;
+  padding: 2rem;
+}
+.row {
+  display: grid;
+  margin: 1rem;
+}
+.col {
+  border: 1px solid #ffcba4;
+  padding: 1rem;
+}
+.col-2 {
+  grid-template-columns: auto auto;
+}
+
+.col-3 {
+  grid-template-columns: auto auto auto;
+}
+.navigation {
+  width: 99%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  background-color: peachpuff;
+  color: black;
+  border-radius: 0.25rem;
+  height: 4rem;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: black;
 }
